@@ -2,8 +2,6 @@ project('elementary-default-settings')
 
 meson.add_install_script('meson/post_install.py')
 
-subdir('data')
-
 # Printer testpage
 install_data(
     'default-testpage.pdf',
@@ -82,11 +80,9 @@ install_data(
     install_dir: join_paths('/etc', 'wingpanel.d')
 )
 
-#appcenter.blacklist /etc/appcenter/
-#plank/dock1 /etc/skel/.config/plank/
-#policykit.desktop /usr/share/applications/
-#profile.d/*.sh /etc/profile.d/
-#sessioninstaller.desktop /usr/share/applications/
-#settings.ini /etc/gtk-3.0/
-#sudoers.d/* /etc/sudoers.d/
-#wingpanel.d/* /etc/wingpanel.d/
+# TODO: install the following:
+# * dpms/
+# * plymouth/
+# * ubiquity-slideshow-elementary/
+# * debian/elementary-default-settings.gsettings-override
+# * debian/elementary-dpms-helper.1

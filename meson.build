@@ -11,7 +11,7 @@ install_data(
 # Installer session lightdm.conf
 install_data(
     'lightdm.conf',
-    install_dir: join_paths('/etc', 'lightdm')
+    install_dir: join_paths(get_option('sysconfdir'), 'lightdm')
 )
 
 install_data(
@@ -21,7 +21,7 @@ install_data(
 
 install_data(
     'settings.ini',
-    install_dir: join_paths('/etc', 'gtk-3.0')
+    install_dir: join_paths(get_option('sysconfdir'), 'gtk-3.0')
 )
 
 install_data(
@@ -32,7 +32,7 @@ install_data(
 # TODO: dynamically generate appcenter.blacklist list using meson options
 install_data(
     'appcenter.blacklist',
-    install_dir: join_paths('/etc', 'appcenter')
+    install_dir: join_paths(get_option('sysconfdir'), 'appcenter')
 )
 
 # TODO: dynamically generate dockitem list using meson options
@@ -50,7 +50,7 @@ dock_items = [
 
 install_data(
     dock_items,
-    install_dir: join_paths('/etc', 'skel', '.config', 'plank', 'dock1', 'launchers')
+    install_dir: join_paths(get_option('sysconfdir'), 'skel', '.config', 'plank', 'dock1', 'launchers')
 )
 
 # TODO: glob all *.sh files
@@ -65,19 +65,19 @@ profiles = [
 # TODO: move to ./profile.d/meson.build
 install_data(
     profiles,
-    install_dir: join_paths('/etc', 'profile.d')
+    install_dir: join_paths(get_option('sysconfdir'), 'profile.d')
 )
 
 # TODO: glob all files
 # TODO: move to ./sudoers.d/meson.build
 install_data(
     join_paths('.', 'sudoers.d', 'pwfeedback'),
-    install_dir: join_paths('/etc', 'sudoers.d')
+    install_dir: join_paths(get_option('sysconfdir'), 'sudoers.d')
 )
 
 install_data(
     join_paths('.', 'wingpanel.d', 'ayatana.blacklist'),
-    install_dir: join_paths('/etc', 'wingpanel.d')
+    install_dir: join_paths(get_option('sysconfdir'), 'wingpanel.d')
 )
 
 # TODO: install the following:

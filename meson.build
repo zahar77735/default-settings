@@ -1,4 +1,5 @@
-project('elementary-default-settings')
+project('elementary-default-settings',
+        default_options: 'sysconfdir=/etc')
 
 #meson.add_install_script('meson/post_install.py')
 

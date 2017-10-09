@@ -1,6 +1,6 @@
 project('elementary-default-settings')
 
-meson.add_install_script('meson/post_install.py')
+#meson.add_install_script('meson/post_install.py')
 
 # Printer testpage
 install_data(

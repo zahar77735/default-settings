@@ -16,11 +16,6 @@ install_data(
 )
 
 install_data(
-    'policykit.desktop',
-    install_dir: join_paths(get_option('datadir'), 'applications')
-)
-
-install_data(
     'settings.ini',
     install_dir: join_paths(get_option('sysconfdir'), 'gtk-3.0')
 )

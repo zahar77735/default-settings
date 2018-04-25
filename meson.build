@@ -36,11 +36,11 @@ dock_items = [
     join_paths('.', 'plank', 'dock1', 'launchers', 'gala-multitaskingview.dockitem'),
     join_paths('.', 'plank', 'dock1', 'launchers', 'io.elementary.appcenter.dockitem'),
     join_paths('.', 'plank', 'dock1', 'launchers', 'org.gnome.Epiphany.dockitem'),
-    join_paths('.', 'plank', 'dock1', 'launchers', 'org.pantheon.audience.dockitem'),
+    join_paths('.', 'plank', 'dock1', 'launchers', 'io.elementary.videos.dockitem'),
     join_paths('.', 'plank', 'dock1', 'launchers', 'org.pantheon.mail.dockitem'),
-    join_paths('.', 'plank', 'dock1', 'launchers', 'org.pantheon.maya.dockitem'),
-    join_paths('.', 'plank', 'dock1', 'launchers', 'org.pantheon.noise.dockitem'),
-    join_paths('.', 'plank', 'dock1', 'launchers', 'org.pantheon.photos.dockitem'),
+    join_paths('.', 'plank', 'dock1', 'launchers', 'io.elementary.calendar.dockitem'),
+    join_paths('.', 'plank', 'dock1', 'launchers', 'io.elementary.music.dockitem'),
+    join_paths('.', 'plank', 'dock1', 'launchers', 'io.elementary.photos.dockitem'),
     join_paths('.', 'plank', 'dock1', 'launchers', 'org.pantheon.switchboard.dockitem'),
 ]
 

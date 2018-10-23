@@ -77,10 +77,5 @@ install_data(
 )
 
 # TODO: install the following:
-# * dpms/
 # * plymouth/
-# * ubiquity-slideshow-elementary/
 # * debian/elementary-default-settings.gsettings-override
-# * debian/elementary-dpms-helper.1
-# * make gtk-sound-theme-name configurable, Ubuntu/elementary should be 'ubuntu', otherwise 'freedesktop'
-# * make gtk-fallback-icon-theme configurable, Loki should be 'gnome', Juno 'Adwaita'

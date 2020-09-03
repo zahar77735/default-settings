@@ -22,14 +22,14 @@ automatic-timezone=true
 exec='io.elementary.terminal'
 
 [org.gnome.desktop.input-sources]
-xkb-options=['grp:alt_shift_toggle']
+xkb-options=['grp:win_space_toggle']
 
 [org.gnome.desktop.interface]
-cursor-theme='elementary'
+cursor-theme='macOS Cursor Set'
 document-font-name='Open Sans 10'
 font-name='Inter 9'
-gtk-theme='io.elementary.stylesheet.blueberry'
-icon-theme='elementary'
+gtk-theme='MC-OS-2020-graphite'
+icon-theme='Mojave-CT-Classic'
 monospace-font-name='Roboto Mono 10'
 show-unicode-menu=false
 
@@ -90,7 +90,7 @@ toggle-maximized=['<Super>Up']
 unmaximize=['<Alt>F5']
 
 [org.gnome.desktop.wm.preferences]
-button-layout='close:maximize'
+button-layout='close,minimize,maximize:menu'
 mouse-button-modifier='<Super>'
 resize-with-right-button=true
 
@@ -141,7 +141,7 @@ active=false
 [org.gnome.settings-daemon.plugins.xsettings]
 antialiasing='rgba'
 hinting='slight'
-overrides={'Gtk/DialogsUseHeader': <0>, 'Gtk/EnablePrimaryPaste': <0>, 'Gtk/ShellShowsAppMenu': <0>, 'Gtk/DecorationLayout': <'close:menu,maximize'>}
+overrides={'Gtk/DialogsUseHeader': <0>, 'Gtk/EnablePrimaryPaste': <0>, 'Gtk/ShellShowsAppMenu': <0>, 'Gtk/DecorationLayout': <'close,minimize,maximize:menu'>}
 
 [org.gtk.Settings.FileChooser]
 sort-directories-first=true
